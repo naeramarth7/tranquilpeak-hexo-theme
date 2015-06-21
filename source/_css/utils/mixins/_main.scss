@@ -13,7 +13,6 @@
 /// Mixin helper to stylized `main` div in large size
 @mixin main-lg {
     padding-top: map-get($header, height) + map-get($main, padding-top);
-    display:     block;
     width:       100%;
 }
 /// Mixin helper to push `main` div from medium sidebar size

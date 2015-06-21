@@ -1,9 +1,14 @@
 <!--SCRIPTS-->
-<%- js('assets/js/jquery.js') %>
-<%- js('assets/js/jquery.fancybox.js') %>
-<%- js('assets/js/jquery.fancybox-thumbs.js') %>
-<%- js('assets/js/tranquilpeak.js') %>
+<%- js('assets/js/script.min.js') %>
 <!--SCRIPTS END-->
+
+<script>
+    (function() {
+        if ('addEventListener' in document && window.FastClick) {
+            FastClick.attach(document.body);
+        }
+    })();
+</script>
 <% if (theme.disqus_shortname && is_post() && post.comments) { %>
     <script type="text/javascript">
         var disqus_shortname = '<%= theme.disqus_shortname %>';

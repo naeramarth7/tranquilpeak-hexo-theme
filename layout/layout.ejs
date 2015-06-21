@@ -6,7 +6,9 @@
             <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
             <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
             <div id="main" data-behavior="<%= theme.sidebar_behavior %>">
-                <%- body %>
+                <div id="content">
+                    <%- body %>
+                </div>
                 <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>
             </div>
             <% if (is_post()) { %>
