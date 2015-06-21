@@ -35,29 +35,29 @@ sidebar:
             title: Archives
             url: /all-archives
             icon: archive
-        search:
-            title: Search
-            url: /#search
-            icon: search
-            # `st-search-show-outputs` classes are used to open swiftype search window
-            class: st-search-show-outputs
+        # search:
+        #     title: Search
+        #     url: /#search
+        #     icon: search
+        #     # `st-search-show-outputs` classes are used to open swiftype search window
+        #     class: st-search-show-outputs
         about:
             title: About me
             url: /#about
             icon: question
     author_links:
-        # github:
-        #     title: GitHub
-        #     url: https://github.com/
-        #     icon: github
-        # stack_overflow:
-        #     title: Stack Overflow
-        #     url: http://stackoverflow.com/users/
-        #     icon: stack-overflow
-        # twitter:
-        #     title: Twitter
-        #     url: https://twitter.com/
-        #     icon: twitter
+        github:
+            title: GitHub
+            url: https://github.com/naeramarth7
+            icon: github
+        stack_overflow:
+            title: Stack Overflow
+            url: https://stackoverflow.com/users/1800245/naeramarth7
+            icon: stack-overflow
+        twitter:
+            title: Twitter
+            url: https://twitter.com/naeramarth7
+            icon: twitter
         # facebook:
         #     title: Facebook
         #     url: https://www.facebook.com/
@@ -86,16 +86,16 @@ sidebar:
 # DON'T edit `header`, `right_link`, `url`, `icon` and `class` variable name
 header:
     right_link:
-        # url: /#search
-        # icon: search
-        # class: st-search-show-outputs
+        url:
+        icon:
+        class:
 
 # Author
 author:
-    email: 
-    bio:
-    job:
-    location:
+    email: kontakt@svenflickinger.de
+    bio: Injecting coffee into code since '08.
+    job: Technology Consultant
+    location: Munich
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production).
     # Overwritten by your gravatar image if `gravatar_image` is enabled
@@ -112,7 +112,7 @@ sidebar_behavior: 1
 # Display thumbnail image of each post on index pages (disable: 0, enable: 1)
 thumbnail_image: 1
 # Message displayed after the <!-- more --> tag
-read_more_message: Continue reading
+read_more_message: Read on
 # Message displayed after the <!-- more --> tag or after 300 characters for post with link layout
 go_to_message: Go to the website
 # Your blog cover picture located in folder `source/_images/` (development) or in `source/assets/images/` (production)
@@ -124,17 +124,17 @@ image_gallery: 1
 # Pagination behavior of archive, category and tag pages
 ## 0: Disable pagination
 ## 1: Enable pagination
-archive_pagination: 1
-category_pagination: 1
-tag_pagination: 1
+archive_pagination: 0
+category_pagination: 0
+tag_pagination: 0
 
 # Integrated services
 # Your Disqus shortname
-disqus_shortname:
+disqus_shortname: inject-coffee
 # Your Google analystics web property ID : UA-XXXXX-X
 google_analytics_id:
 # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
-gravatar_email:
+gravatar_email: kontakt@svenflickinger.de
 # Your swiftype install key
 swiftype_install_key:
 
