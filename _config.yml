@@ -23,10 +23,10 @@ sidebar:
             title: Home
             url: /
             icon: home
-        categories:
-            title: Categories
-            url: /all-categories
-            icon: bookmark
+        # categories:
+        #     title: Categories
+        #     url: /all-categories
+        #     icon: bookmark
         tags:
             title: Tags
             url: /all-tags
@@ -54,10 +54,10 @@ sidebar:
             title: Stack Overflow
             url: https://stackoverflow.com/users/1800245/naeramarth7
             icon: stack-overflow
-        twitter:
-            title: Twitter
-            url: https://twitter.com/naeramarth7
-            icon: twitter
+        # twitter:
+        #     title: Twitter
+        #     url: https://twitter.com/naeramarth7
+        #     icon: twitter
         # facebook:
         #     title: Facebook
         #     url: https://www.facebook.com/
@@ -66,14 +66,14 @@ sidebar:
         #     title: Google +
         #     url: https://plus.google.com/
         #     icon: google-plus
-        # linked_in:
-        #     title: Linked In
-        #     url: https://www.linkedin.com/profile/
-        #     icon: linkedin
-        # mail:
-        #     title: Mail
-        #     url: mailto:
-        #     icon: envelope-o
+        linked_in:
+            title: Linked In
+            url: https://www.linkedin.com/profile/view?id=210387935
+            icon: linkedin
+        mail:
+            title: Mail
+            url: mailto:kontakt@svenflickinger.de
+            icon: envelope-o
     rss:
         rss:
             title: RSS
@@ -94,7 +94,7 @@ header:
 author:
     email: kontakt@svenflickinger.de
     bio: Injecting coffee into code since '08.
-    job: Technology Consultant
+    job: Application Developer
     location: Munich
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production).
