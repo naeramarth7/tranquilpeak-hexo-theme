@@ -1,5 +1,6 @@
 <%
     var title = '';
+    var delimiter = ' » ';
 
     if (is_home()) {
         title += config.title;
@@ -14,7 +15,7 @@
             title += ' : ' + page.year;
         }
 
-        title += ' - ' + config.title;
+        title += delimiter + config.title;
     }
     else if (is_tag()) {
         if (page.tag) {
@@ -24,7 +25,7 @@
             title += 'All tags';
         }
 
-        title += ' - ' + config.title;
+        title += delimiter + config.title;
     }
     else if (is_category()) {
         if (page.category) {
@@ -34,10 +35,10 @@
             title += 'All categories';
         }
 
-        title += ' - ' + config.title;
+        title += delimiter + config.title;
     }
     else {
-      title += page.title + ' - ' + config.title;
+      title += page.title + delimiter + config.title;
     }
 %>
 <head>
