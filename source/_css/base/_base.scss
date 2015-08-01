@@ -142,6 +142,10 @@ blockquote {
         }
 
     }
+
+    *:last-child {
+      margin: 0 0 0 0;
+    }
 }
 
 // Reduce global font-size base and headings font size on small screen and down
